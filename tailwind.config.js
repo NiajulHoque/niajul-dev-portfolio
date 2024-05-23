@@ -18,5 +18,3 @@ module.exports = {
   },
   plugins: [],
 };
-
-// rgb(8, 51, 68) - blue
