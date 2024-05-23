@@ -9,7 +9,14 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "regal-blue": "#083344",
+        "space-gray": "#94A3B8",
+      },
+    },
   },
   plugins: [],
 };
+
+// rgb(8, 51, 68) - blue
