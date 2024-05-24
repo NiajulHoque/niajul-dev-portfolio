@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Analytics } from "@vercel/analytics/react";
 
 import { Inter } from "next/font/google";
 
@@ -31,6 +32,7 @@ export default function RootLayout({
         <div className="flex h-full flex-col justify-between">
           <NavbarSection />
           {children}
+          <Analytics />
           <ContactSection />
         </div>
       </body>
