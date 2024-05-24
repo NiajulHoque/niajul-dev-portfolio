@@ -3,7 +3,7 @@ type NavItems = {
   text: string;
 };
 
-function NavbarSection() {
+function Navbar() {
   const navItems: NavItems[] = [
     {
       href: "#about-me",
@@ -13,10 +13,10 @@ function NavbarSection() {
       href: "#work-experience",
       text: "Work Experience",
     },
-    {
-      href: "#projects",
-      text: "Projects",
-    },
+    // {
+    //   href: "#projects",
+    //   text: "Projects",
+    // },
     {
       href: "#education",
       text: "Education",
@@ -32,7 +32,7 @@ function NavbarSection() {
       <ul className="flex flex-row items-center justify-between">
         <li className="py-1 px-2 ml-5">
           <a href="/">
-            <img src="/logo.png" alt="Logo" height={20} width={20} />
+            <img src="/logo.png" alt="Logo" height={15} width={15} />
           </a>
         </li>
 
@@ -53,4 +53,4 @@ function NavbarSection() {
   );
 }
 
-export default NavbarSection;
+export default Navbar;

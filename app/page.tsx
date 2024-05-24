@@ -1,8 +1,8 @@
-import AboutMeSection from "./components/AboutMeSection";
-import EducationSection from "./components/EducationSection";
-import DashboardSection from "./components/DashboardSection";
-import ProjectsSection from "./components/ProjectsSection";
-import WorkExperienceSection from "./components/WorkExperienceSection";
+import AboutMeSection from "./sections/AboutMeSection";
+import EducationSection from "./sections/EducationSection";
+import DashboardSection from "./sections/DashboardSection";
+import ProjectsSection from "./sections/ProjectsSection";
+import WorkExperienceSection from "./sections/WorkExperienceSection";
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
       <DashboardSection />
       <AboutMeSection />
       <WorkExperienceSection />
-      <ProjectsSection />
+      {/* <ProjectsSection /> */}
       <EducationSection />
     </div>
   );

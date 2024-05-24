@@ -1,8 +1,10 @@
 import type { Metadata, Viewport } from "next";
+
 import { Inter } from "next/font/google";
+
 import "./index.css";
-import NavbarSection from "./components/core/NavbarSection";
-import ContactSection from "./components/ContactSection";
+import ContactSection from "./sections/ContactSection";
+import NavbarSection from "./sections/NavbarSection";
 
 const inter = Inter({ subsets: ["latin"] });
 

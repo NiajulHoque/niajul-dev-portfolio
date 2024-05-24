@@ -11,7 +11,7 @@ function DashboardSection() {
 
   return (
     <header className="h-full max-w-[75%] w-[60%] py-56 m-auto flex flex-col justify-center items-center text-center">
-      <h1 className="text-5xl h-14">{text}</h1>
+      <h1 className="text-5xl h-14 text-yellow-500">{text}</h1>
       <p className="my-5 font-semibold">
         I BUILD WEBSITES WHICH ENHANCE YOUR BRAND'S ONLINE PRESENCE FURTHER
       </p>
