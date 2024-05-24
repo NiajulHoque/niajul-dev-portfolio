@@ -28,7 +28,7 @@ function Navbar() {
   ];
 
   return (
-    <nav className="w-full py-3 fixed top-0 left-0 z-50 transition duration-150 ease-in-out shadow-md backdrop-blur-md">
+    <nav className="w-full py-3 fixed top-0 left-0 z-50 shadow-md backdrop-blur-md">
       <ul className="flex flex-row items-center justify-between">
         <li className="py-1 px-2 ml-5">
           <a href="/">
