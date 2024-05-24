@@ -22,7 +22,7 @@ function AboutMeSection() {
       <hr className="my-4 border-space-gray" />
 
       <p className="my-5 pt-2">
-        Hi, I'm Niajul. I appreciate you taking the time to check out my
+        Hi, I&apos;m Niajul. I appreciate you taking the time to check out my
         portfolio. I am a junior front-end web developer who enjoys building
         landing sites and creating visually appealing components for front-end
         development. I am currently learning back-end development and unit

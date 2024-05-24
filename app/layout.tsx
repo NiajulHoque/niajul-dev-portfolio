@@ -11,6 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Niajul Hoque",
   description: "My personal developer portfolio",
+  icons: "/logo.png",
 };
 
 export const viewport: Viewport = {

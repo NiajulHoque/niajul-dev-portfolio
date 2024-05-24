@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type NavItems = {
   href: string;
   text: string;
@@ -32,7 +34,7 @@ function Navbar() {
       <ul className="flex flex-row items-center justify-between">
         <li className="py-1 px-2 ml-5">
           <a href="/">
-            <img src="/logo.png" alt="Logo" height={15} width={15} />
+            <Image src="/logo.png" alt="Logo" height={15} width={15} />
           </a>
         </li>
 
