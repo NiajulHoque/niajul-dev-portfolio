@@ -6,3 +6,12 @@ body {
   background-color: rgb(8, 51, 68);
   color: rgb(148 163 184);
 }
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #94a3b8;
+  border-radius: 6px;
+}
