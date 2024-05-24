@@ -1,5 +1,5 @@
 import React from "react";
-import WorkExperienceCard from "./reusable/WorkExperienceCard";
+import WorkExperienceCard from "./components/WorkExperienceCard";
 
 type WorkExperience = {
   title: string;
@@ -11,7 +11,7 @@ type WorkExperience = {
 function WorkExperienceSection() {
   const workExperiences: WorkExperience[] = [
     {
-      title: "Junior Front-End Webdeveloper @ Wilayah Matrimonials",
+      title: "Junior Front-End Web Developer @ Wilayah Matrimonials",
       date: "2023 - Present",
       companyLink: "https://www.wilayah-matrimonials.com",
       responsibilities: [

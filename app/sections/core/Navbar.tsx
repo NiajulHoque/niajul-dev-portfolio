@@ -3,7 +3,7 @@ type NavItems = {
   text: string;
 };
 
-function NavbarSection() {
+function Navbar() {
   const navItems: NavItems[] = [
     {
       href: "#about-me",
@@ -13,10 +13,10 @@ function NavbarSection() {
       href: "#work-experience",
       text: "Work Experience",
     },
-    {
-      href: "#projects",
-      text: "Projects",
-    },
+    // {
+    //   href: "#projects",
+    //   text: "Projects",
+    // },
     {
       href: "#education",
       text: "Education",
@@ -28,11 +28,11 @@ function NavbarSection() {
   ];
 
   return (
-    <nav className="w-full py-3 fixed top-0 left-0 z-50 shadow-md backdrop-blur-md">
+    <nav className="w-full py-3 fixed top-0 left-0 z-50 transition duration-150 ease-in-out shadow-md backdrop-blur-md">
       <ul className="flex flex-row items-center justify-between">
         <li className="py-1 px-2 ml-5">
           <a href="/">
-            <img src="/logo.png" alt="Logo" height={20} width={20} />
+            <img src="/logo.png" alt="Logo" height={15} width={15} />
           </a>
         </li>
 
@@ -53,4 +53,4 @@ function NavbarSection() {
   );
 }
 
-export default NavbarSection;
+export default Navbar;
