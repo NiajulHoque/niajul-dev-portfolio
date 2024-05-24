@@ -16,15 +16,12 @@ function AboutMeSection() {
   ];
 
   return (
-    <section
-      id="about-me"
-      className="section max-w-[75%] mx-auto mt-[5rem] py-5 text-center"
-    >
-      <h1 className="text-3xl mb-5">About Me</h1>
+    <section id="about-me" className="mt-[5rem] py-5 text-center">
+      <h1 className="mb-5 text-3xl font-bold">About Me</h1>
 
       <hr className="my-4 border-space-gray" />
 
-      <p className="my-5">
+      <p className="my-5 pt-2">
         Hi, I'm Niajul. I appreciate you taking the time to check out my
         portfolio. I am a junior front-end web developer who enjoys building
         landing sites and creating visually appealing components for front-end
